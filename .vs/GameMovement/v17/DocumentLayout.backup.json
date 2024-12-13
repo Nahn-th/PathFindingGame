@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\admin\\downloads\\graph theory\\ctdl_winform-main\\gamemovement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\admin\\downloads\\graph theory\\ctdl_winform-main\\gamemovement\\frmwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\frmwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\admin\\downloads\\graph theory\\ctdl_winform-main\\gamemovement\\frmlose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\frmlose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\admin\\downloads\\graph theory\\ctdl_winform-main\\gamemovement\\iresettableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\iresettableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\gamemovement\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\admin\\downloads\\graph theory\\ctdl_winform-main\\gamemovement\\frmwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\frmwin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLose.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\frmLose.cs",
+              "RelativeDocumentMoniker": "GameMovement\\frmLose.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\frmLose.cs",
+              "RelativeToolTip": "GameMovement\\frmLose.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:15:25.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IResettableForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\IResettableForm.cs",
+              "RelativeDocumentMoniker": "GameMovement\\IResettableForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\IResettableForm.cs",
+              "RelativeToolTip": "GameMovement\\IResettableForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:39:46.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmWin.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\frmWin.cs",
+              "RelativeDocumentMoniker": "GameMovement\\frmWin.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\frmWin.cs",
+              "RelativeToolTip": "GameMovement\\frmWin.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAuwBoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:11:33.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmWin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\frmWin.cs",
+              "RelativeDocumentMoniker": "GameMovement\\frmWin.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\frmWin.cs [Design]",
+              "RelativeToolTip": "GameMovement\\frmWin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T07:46:59.832Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\frmMenu.cs",
+              "RelativeDocumentMoniker": "GameMovement\\frmMenu.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\frmMenu.cs",
+              "RelativeToolTip": "GameMovement\\frmMenu.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAuwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:58:51.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\Form1.cs",
+              "RelativeDocumentMoniker": "GameMovement\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\Graph Theory\\CTDL_winform-main\\GameMovement\\Form1.cs",
+              "RelativeToolTip": "GameMovement\\Form1.cs",
+              "ViewState": "AgIAAE8CAAAAAAAAAAAAAFYCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:58:32.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
