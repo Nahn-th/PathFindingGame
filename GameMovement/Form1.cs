@@ -52,6 +52,7 @@ namespace GameMovement
         private bool isGameWon = false;
         private bool isGameLost = false;
         private bool Player_Moving = true;
+        private bool isPaused = false;
 
         public Form1()
         {
@@ -91,9 +92,15 @@ namespace GameMovement
                 {
                     goDown = true;
                 }
-                else if (e.KeyCode == Keys.P)
+
+                if (e.KeyCode == Keys.P)
                 {
                     StopMusic("mission_impossible.wav");                   
+                }
+
+                if (e.KeyCode == Keys.Escape)
+                {
+                    btnPause_Click(sender, e);
                 }
                
             }
@@ -128,7 +135,7 @@ namespace GameMovement
                     goDown = false;
                 }
                
-                    else if (e.KeyCode == Keys.P )
+                if (e.KeyCode == Keys.P )
                 {
                     count_button_P++;
                     if (count_button_P % 2 == 0)
@@ -137,9 +144,10 @@ namespace GameMovement
                         
                     }
                    
-                 }
+                }
             }
         }
+
         private void Stop_character()
         {
             goLeft = false;
@@ -147,6 +155,7 @@ namespace GameMovement
             goUp = false;
             goDown = false;
         }
+
         private void PlayMusic(string filepath)
         {
             //if (!Playing_music)
@@ -250,6 +259,11 @@ namespace GameMovement
 
         private void TimerEvent(object sender, EventArgs e)
         {
+            if (isPaused || isGameLost || isGameWon)
+            {
+                return;
+            }
+
             CheckCollision();
 
             if (timeCounter > 1)
@@ -317,6 +331,8 @@ namespace GameMovement
             gridHeight = this.ClientSize.Height / cellSize; // lưới chiều cao
 
             InitializeObstacleGrid();
+
+
         }
         private void AnimatePlayer(int start, int end)
         {
@@ -454,8 +470,6 @@ namespace GameMovement
        
         private void MoveNPC()
         {
-            if (isGameWon || isGameLost) { return; }
-                
             // Tính toán tọa độ lưới cho NPC và người chơi
             // Các điều chỉnh nhằm đưa toạ độ tìm kiếm vào giữa nhân vật
             // Đồng thời giúp việc tìm ô thực tế nhân vật đang ở chính xác hơn
@@ -604,6 +618,58 @@ namespace GameMovement
             loseForm.Show();
         }
 
+        private void ResetMoving()
+        {
+            goUp = true;
+            goDown = true;
+            goLeft = true;
+            goDown = true;
+            Stop_character();
+        }
+
+        private void btnPause_Click(object sender, EventArgs e)
+        {
+            isPaused = !isPaused;
+
+            if (isPaused)
+            {
+                // Pause the game
+                Stop_character();
+                StopMusic("mission_impossible.wav");
+                btnPause.Text = "Resume";
+
+                ShowPauseForm();
+            }
+            else
+            {
+                // Resume the game
+                Player_Moving = true;
+                PlayMusic("mission_impossible.wav");
+                btnPause.Text = "Pause";
+            }
+            
+        }
+
+        private void ShowPauseForm()
+        {
+            frmPause pauseForm = new frmPause(this);
+            pauseForm.Show();
+        }
+
+        public void ResumeGame()
+        {
+
+            if (isPaused)
+            {
+                isPaused = !isPaused;
+                // Resume the game
+                Player_Moving = true;
+                PlayMusic("mission_impossible.wav");
+                btnPause.Text = "Pause";
+            }
+
+        }
+
         private void ShowWinForm()
         {
             frmWin winForm = new frmWin(this);
@@ -719,7 +785,6 @@ namespace GameMovement
             isGameLost = false;
             isGameWon = false;
             Player_Moving = true;
-            Stop_character();
 
             count = 0;
             // Reset vị trí của người chơi
@@ -742,6 +807,8 @@ namespace GameMovement
             steps = 0;
             timeCounter = 0;
             count = 0;
+
+            ResetMoving();
 
             this.Invalidate(); // Vẽ lại giao diện
         }

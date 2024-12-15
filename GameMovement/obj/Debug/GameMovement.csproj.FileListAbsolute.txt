@@ -36,3 +36,4 @@ C:\Users\Admin\Downloads\Graph Theory\CTDL_winform-main\GameMovement\obj\Debug\G
 C:\Users\Admin\Downloads\Graph Theory\CTDL_winform-main\GameMovement\obj\Debug\GameMovement.pdb
 C:\Users\Admin\Downloads\Graph Theory\CTDL_winform-main\GameMovement\obj\Debug\GameMovement.frmLose.resources
 C:\Users\Admin\Downloads\Graph Theory\CTDL_winform-main\GameMovement\obj\Debug\GameMovement.frmWin.resources
+C:\Users\Admin\Downloads\Graph Theory\CTDL_winform-main\GameMovement\obj\Debug\GameMovement.frmPause.resources

@@ -64,6 +64,12 @@
     <Compile Include="frmLose.Designer.cs">
       <DependentUpon>frmLose.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPause.Designer.cs">
+      <DependentUpon>frmPause.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmWin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPause.resx">
+      <DependentUpon>frmPause.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmWin.resx">
       <DependentUpon>frmWin.cs</DependentUpon>
@@ -147,6 +156,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Default%404x4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultPause%404x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

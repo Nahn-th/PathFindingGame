@@ -10,5 +10,6 @@ namespace GameMovement
     {
         void ResetGame();
         void NextGame();
+        void ResumeGame();
     }
 }
