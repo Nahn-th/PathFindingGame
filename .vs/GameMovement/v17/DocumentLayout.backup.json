@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\thinkpad t470\\downloads\\pathfindinggame-main\\gamemovement\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\thinkpad t470\\downloads\\pathfindinggame-main\\gamemovement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\thinkpad t470\\downloads\\pathfindinggame-main\\gamemovement\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\gamemovement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\thinkpad t470\\downloads\\pathfindinggame-main\\gamemovement\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|c:\\users\\thinkpad t470\\downloads\\pathfindinggame-main\\gamemovement\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C0041-C470-4461-9A3D-B6D4CF5EDC61}|GameMovement\\GameMovement.csproj|solutionrelative:gamemovement\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +70,70 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form3.cs",
+              "RelativeDocumentMoniker": "GameMovement\\Form3.cs",
+              "ToolTip": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form3.cs",
+              "RelativeToolTip": "GameMovement\\Form3.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:38:41.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form3.cs",
+              "RelativeDocumentMoniker": "GameMovement\\Form3.cs",
+              "ToolTip": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form3.cs [Design]",
+              "RelativeToolTip": "GameMovement\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:38:31.422Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form2.cs",
+              "RelativeDocumentMoniker": "GameMovement\\Form2.cs",
+              "ToolTip": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form2.cs",
+              "RelativeToolTip": "GameMovement\\Form2.cs",
+              "ViewState": "AgIAAIYCAAAAAAAAAAAAwI0CAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:50:47.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form2.cs",
+              "RelativeDocumentMoniker": "GameMovement\\Form2.cs",
+              "ToolTip": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form2.cs [Design]",
+              "RelativeToolTip": "GameMovement\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T04:50:10.82Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form1.cs",
+              "RelativeDocumentMoniker": "GameMovement\\Form1.cs",
+              "ToolTip": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form1.cs",
+              "RelativeToolTip": "GameMovement\\Form1.cs",
+              "ViewState": "AgIAAI0CAAAAAAAAAAAcwKUCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T02:58:32.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form1.cs",
               "RelativeDocumentMoniker": "GameMovement\\Form1.cs",
@@ -63,19 +142,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T05:42:20.685Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form1.cs",
-              "RelativeDocumentMoniker": "GameMovement\\Form1.cs",
-              "ToolTip": "C:\\Users\\THINKPAD T470\\Downloads\\PathFindingGame-main\\GameMovement\\Form1.cs",
-              "RelativeToolTip": "GameMovement\\Form1.cs",
-              "ViewState": "AgIAADQCAAAAAAAAAAAuwDsCAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T02:58:32.461Z",
-              "EditorCaption": ""
             }
           ]
         }

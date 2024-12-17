@@ -29,7 +29,7 @@ namespace GameMovement
         int playerY;
         int playerHeight = 80;
         int playerWidth= 80;
-        int playerSpeed = 20;
+        int playerSpeed = 12;
 
         //NPC
         private NPC npc;
@@ -163,17 +163,14 @@ namespace GameMovement
                 SoundPlayer music = new SoundPlayer();
                 music.SoundLocation = filepath;
                 music.Play();
-            
-            
         }
+
         private void StopMusic(string filepath)
         {          
                  SoundPlayer music = new SoundPlayer();
                 music.SoundLocation = filepath;
                 music.Stop();    
                 //Playing_music = false;
-            
-            
         }
 
         private void FormPaintEvent(object sender, PaintEventArgs e)
@@ -184,7 +181,7 @@ namespace GameMovement
             playerHeight = cellSize - 20;
 
             //Ve luoi 
-         //   DrawGrid(Canvas, cellSize);
+            //DrawGrid(Canvas, cellSize);
 
             // Vẽ các đồ vật trên màn hình
             if (item_List != null)
@@ -194,7 +191,6 @@ namespace GameMovement
                     Canvas.DrawImage(item.item_image, item.positionX, item.positionY, item.width, item.height);
                 }
             }
-
             
             // Ve nguoi choi
             Canvas.DrawImage(player, playerX, playerY, playerWidth, playerHeight);
@@ -209,8 +205,6 @@ namespace GameMovement
 
             // Vẽ đường đi từ NPC đến player
             //DrawPathToPlayer(Canvas, cellSize);
-
-            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -331,9 +325,8 @@ namespace GameMovement
             gridHeight = this.ClientSize.Height / cellSize; // lưới chiều cao
 
             InitializeObstacleGrid();
-
-
         }
+
         private void AnimatePlayer(int start, int end)
         {
             slowDownFrameRate += 1;  // Giam toc do di chuyen giua cac khung hinh
@@ -857,7 +850,3 @@ namespace GameMovement
 
     }
 }
-
-/* tình hình là khi chơi lại thì các nút bị dính vào nhau , nên xem lại phần di chuyển keyUp , keyDown
-  nên setup phần reset lại tất cả các nút khi reset game
- */

@@ -52,3 +52,4 @@ C:\Users\THINKPAD T470\Downloads\PathFindingGame-main\GameMovement\obj\Debug\Gam
 C:\Users\THINKPAD T470\Downloads\PathFindingGame-main\GameMovement\obj\Debug\GameMovement.csproj.CoreCompileInputs.cache
 C:\Users\THINKPAD T470\Downloads\PathFindingGame-main\GameMovement\obj\Debug\GameMovement.exe
 C:\Users\THINKPAD T470\Downloads\PathFindingGame-main\GameMovement\obj\Debug\GameMovement.pdb
+C:\Users\THINKPAD T470\Downloads\PathFindingGame-main\GameMovement\obj\Debug\GameMovement.Form3.resources
