@@ -571,7 +571,7 @@ namespace GameMovement
                 if (collision)
                 {  // cập nhật số lượng vp đã nhặt
                     count++;
-                    lblCollected.Text = "Collected: " + count;
+                    lblCollected.Text = "Collected: " + count + "/10";
                     item.item_image = null;
                     item_List.Remove(item);
 

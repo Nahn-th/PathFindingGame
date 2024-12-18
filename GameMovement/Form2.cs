@@ -535,7 +535,7 @@ namespace GameMovement
                 this.ClientSize.Width - cellSize,
                 this.ClientSize.Height - cellSize,
                 cellSize, cellSize,
-                6,
+                9,
                 Directory.GetFiles("NPC", "*.png").ToList()
             );
         }
@@ -565,11 +565,11 @@ namespace GameMovement
                 if (collision)
                 {  // cập nhật số lượng vp đã nhặt
                     count++;
-                    lblCollected.Text = "Collected: " + count;
+                    lblCollected.Text = "Collected: " + count + "/15";
                     item.item_image = null;
                     item_List.Remove(item);
 
-                    if (count == 10)
+                    if (count == 15)
                     {
                         isGameWon = true;
                         ShowWinForm();
@@ -694,96 +694,96 @@ namespace GameMovement
 
         void DesignBlock()
         {
-            //MakeObstacle(4, 1);
-            //MakeObstacle(7, 1);
-            //MakeObstacle(11, 1);
-            //for (int i = 2; i <= 4; i = i + 2)
-            //{
-            //    MakeObstacle(i, 2);
-            //}
-            //for (int i = 9; i <= 13; i = i + 2)
-            //{
-            //    MakeObstacle(i, 2);
-            //}
-            //MakeObstacle(14, 2);
-            //// MakeObstacle(15, 2);
-            //MakeObstacle(1, 3);
+            MakeObstacle(4, 1);
+            MakeObstacle(7, 1);
+            MakeObstacle(11, 1);
+            for (int i = 2; i <= 4; i = i + 2)
+            {
+                MakeObstacle(i, 2);
+            }
+            for (int i = 9; i <= 13; i = i + 2)
+            {
+                MakeObstacle(i, 2);
+            }
+            MakeObstacle(14, 2);
+            MakeObstacle(15, 2);
+            MakeObstacle(1, 3);
 
-            //for (int i = 4; i <= 8; i = i + 2)
-            //{
-            //    MakeObstacle(i, 3);
-            //}
+            for (int i = 4; i <= 8; i = i + 2)
+            {
+                MakeObstacle(i, 3);
+            }
 
-            //MakeObstacle(3, 4);
+            MakeObstacle(3, 4);
 
-            //for (int i = 6; i <= 10; i = i + 2)
-            //{
-            //    MakeObstacle(i, 4);
-            //}
+            for (int i = 6; i <= 10; i = i + 2)
+            {
+                MakeObstacle(i, 4);
+            }
 
-            //for (int i = 11; i <= 14; i++)
-            //{
-            //    MakeObstacle(i, 4);
-            //}
+            for (int i = 11; i <= 14; i++)
+            {
+                MakeObstacle(i, 4);
+            }
 
-            ////MakeObstacle(2, 5);
-            ////MakeObstacle(5, 5);
-            ////MakeObstacle(8, 5);
-            ////MakeObstacle(10, 5);
+            MakeObstacle(2, 5);
+            MakeObstacle(5, 5);
+            MakeObstacle(8, 5);
+            MakeObstacle(10, 5);
 
-            //MakeObstacle(4, 6);
-            //MakeObstacle(7, 6);
-            //MakeObstacle(11, 6);
-            ////for (int i = 13; i <= 15; i++)
-            ////{
-            ////    MakeObstacle(i, 6);
-            ////}
+            MakeObstacle(4, 6);
+            MakeObstacle(7, 6);
+            MakeObstacle(11, 6);
+            for (int i = 13; i <= 15; i++)
+            {
+                MakeObstacle(i, 6);
+            }
 
-            ////for (int i = 2; i <= 4; i++)
-            ////{
-            ////    MakeObstacle(i, 7);
-            ////}
+            for (int i = 2; i <= 4; i++)
+            {
+                MakeObstacle(i, 7);
+            }
 
-            ////for (int i = 6; i <= 9; i++)
-            ////{
-            ////    MakeObstacle(i, 7);
-            ////}
+            for (int i = 6; i <= 9; i++)
+            {
+                MakeObstacle(i, 7);
+            }
 
-            ////for (int i = 11; i <= 12; i = i + 2)
-            ////{
-            ////    MakeObstacle(i, 7);
-            ////}
+            for (int i = 11; i <= 12; i = i + 2)
+            {
+                MakeObstacle(i, 7);
+            }
 
-            ////MakeObstacle(7, 8);
-            ////MakeObstacle(11, 8);
-            ////MakeObstacle(13, 7);
+            MakeObstacle(7, 8);
+            MakeObstacle(11, 8);
+            MakeObstacle(13, 7);
 
-            ////for (int i = 2; i <= 5; i++)
-            ////{
-            ////    MakeObstacle(i, 9);
-            ////}
+            for (int i = 2; i <= 5; i++)
+            {
+                MakeObstacle(i, 9);
+            }
 
-            //MakeObstacle(6, 10);
+            MakeObstacle(6, 10);
 
-            //for (int i = 1; i <= 4; i++)
-            //{
-            //    MakeObstacle(17, i);
-            //}
+            for (int i = 1; i <= 4; i++)
+            {
+                MakeObstacle(17, i);
+            }
 
-            //MakeObstacle(16, 4);
+            MakeObstacle(16, 4);
 
-            //for (int i = 9; i <= 14; i++)
-            //{
-            //    MakeObstacle(i, 9);
-            //}
+            for (int i = 9; i <= 14; i++)
+            {
+                MakeObstacle(i, 9);
+            }
 
-            //MakeObstacle(16, 8);
-            //MakeObstacle(16, 9);
-            //MakeObstacle(16, 10);
+            MakeObstacle(16, 8);
+            MakeObstacle(16, 9);
+            MakeObstacle(16, 10);
 
-            //MakeObstacle(19, 5);
-            //MakeObstacle(19, 6);
-            //MakeObstacle(18, 6);
+            MakeObstacle(19, 5);
+            MakeObstacle(19, 6);
+            MakeObstacle(18, 6);
 
             MakeObstacle(18, 8);
             MakeObstacle(18, 9);

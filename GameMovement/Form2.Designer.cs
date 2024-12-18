@@ -76,6 +76,7 @@
             this.Controls.Add(this.btnPause);
             this.Name = "Form2";
             this.Text = "Lv2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form2_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormPaintEvent);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyIsDown);
